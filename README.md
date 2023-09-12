@@ -26,7 +26,7 @@ Agora vamos calcular o total de vendas por produto e por mês.
 ### :white_check_mark: Load
  Salvando os dados transformados em um novo arquivo CSV e gerando gráfico de barras e de linha usando a biblioteca `Matplotlib`
 
-## :notebook_with_decorative_cover:	 Notebook do meu projeto no Google Colab
+## Notebook do meu projeto no Google Colab
 <a target="_blank" href="https://colab.research.google.com/github/walterowisk/DIO_LabProject-Pipeline-ETL-Python/blob/main/DIO_LabProject_Pipeline_ETL_Analisando_Dados_de_Venda.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a># Santander-Bootcamp-2023_ETL_com_Python
+</a>
