@@ -13,24 +13,17 @@ Desafio original da DIO:
 ## Entendendo o desafio
 Inspirado pelo projeto modelo o aluno deve replicar ou reimaginar uma pipeline ETL utilizando Python.
 
-## Meu projeto 
-Foi pego um dataset no Kaggle (NBA PLayes Stats 2023) com as estatisticas dos jogadores da NBA na temporada 2023. O desafio foi:   
+## Meu projeto
+Foi pego um dataset no Kaggle (NBA PLayes Stats 2023) com as estatisticas dos jogadores da NBA na temporada 2023. O desafio foi:
 
-:one: Extrair esses dados do dataset CSV baixado do Kaggle.
-
-:two: Realizar algumas transformações (Renomear colunas, exclusão de algumas colulas, ocultar o index do DataFrame, listar os 10 maiores pontuadores de 3 pontos, de 2 pontos e de lance livre).
-
-:three: Carregar essas informações listadas em 3 novos arquivos CSV diferentes.
-
-## Etapas do Pipeline de ETL
 ### :heavy_check_mark: Extract
-Nesta etapa vamos extrair os dados de vendas do arquivo `dados-venda.csv`. Este arquivo traz informações referentes ao ano de 2023 considerando o período de janeiro a agosto. As colunas contidas no arquivo são as seguintes: `Produto`, `Data`, `Quantidade` e `Valor`.
+Extrair esses dados do dataset CSV baixado do Kaggle.
 
 ### :heavy_check_mark: Transform
-Agora vamos calcular o total de vendas por produto e por mês.
+Realizar algumas transformações (Renomear colunas, exclusão de algumas colulas, ocultar o index do DataFrame, listar os 10 maiores pontuadores de 3 pontos, de 2 pontos e de lance livre).
 
 ### :heavy_check_mark: Load
- Salvando os dados transformados em um novo arquivo CSV e gerando gráfico de barras e de linha usando a biblioteca `Matplotlib`
+ Carregar essas informações listadas em 3 novos arquivos CSV diferentes.
 
 ## Notebook do meu projeto no Google Colab
 <a target="_blank" href="https://colab.research.google.com/github/andrepinhofig/Santander-Bootcamp-2023_ETL_com_Python/blob/main/NBA_Players_Stats_ETL_Python.ipynb">
