@@ -14,7 +14,7 @@ Desafio original da DIO:
 Inspirado pelo projeto modelo o aluno deve replicar ou reimaginar uma pipeline ETL utilizando Python.
 
 ## Meu projeto
-Foi pego um dataset no Kaggle (NBA PLayes Stats 2023) com as estatisticas dos jogadores da NBA na temporada 2023. O desafio foi:
+Foi pego um dataset no Kaggle (NBA PLayes Stats 2023) com as estatísticas dos jogadores da NBA na temporada 2023. O desafio foi:
 
 ### :heavy_check_mark: Extract
 Extrair esses dados do dataset CSV baixado do Kaggle.
