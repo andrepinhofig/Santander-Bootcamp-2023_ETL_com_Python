@@ -14,7 +14,13 @@ Desafio original da DIO:
 Inspirado pelo projeto modelo o aluno deve replicar ou reimaginar uma pipeline ETL utilizando Python.
 
 ## Meu projeto 
-Imaginando uma loja de produtos esportivos meu desafio foi criar um pipeline ETL para extrair dados de vendas de um arquivo CSV, realizar algumas transformações simples como cálculo de total de vendas por produto e por período e por fim realizar carregamento dos dados transformados em um novo arquivo CSV além de criar uma visualização em tela para mostrar o resultados por meio de gráficos.
+Foi pego um dataset no Kaggle (NBA PLayes Stats 2023) com as estatisticas dos jogadores da NBA na temporada 2023. O desafio foi:   
+
+:one: Extrair esses dados do dataset CSV baixado do Kaggle.
+
+:two: Realizar algumas transformações (Renomear colunas, exclusão de algumas colulas, ocultar o index do DataFrame, listar os 10 maiores pontuadores de 3 pontos, de 2 pontos e de lance livre).
+
+:three: Carregar essas informações listadas em 3 novos arquivos CSV diferentes.
 
 ## Etapas do Pipeline de ETL
 ### :heavy_check_mark: Extract
