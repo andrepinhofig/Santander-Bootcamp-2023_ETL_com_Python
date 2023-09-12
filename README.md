@@ -17,13 +17,13 @@ Inspirado pelo projeto modelo o aluno deve replicar ou reimaginar uma pipeline E
 Imaginando uma loja de produtos esportivos meu desafio foi criar um pipeline ETL para extrair dados de vendas de um arquivo CSV, realizar algumas transformações simples como cálculo de total de vendas por produto e por período e por fim realizar carregamento dos dados transformados em um novo arquivo CSV além de criar uma visualização em tela para mostrar o resultados por meio de gráficos.
 
 ## Etapas do Pipeline de ETL
-### :white_check_mark: Extract
+### :heavy_check_mark: Extract
 Nesta etapa vamos extrair os dados de vendas do arquivo `dados-venda.csv`. Este arquivo traz informações referentes ao ano de 2023 considerando o período de janeiro a agosto. As colunas contidas no arquivo são as seguintes: `Produto`, `Data`, `Quantidade` e `Valor`.
 
-### :white_check_mark: Transform
+### :heavy_check_mark: Transform
 Agora vamos calcular o total de vendas por produto e por mês.
 
-### :white_check_mark: Load
+### :heavy_check_mark: Load
  Salvando os dados transformados em um novo arquivo CSV e gerando gráfico de barras e de linha usando a biblioteca `Matplotlib`
 
 ## Notebook do meu projeto no Google Colab
